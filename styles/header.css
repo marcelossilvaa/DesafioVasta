@@ -1,0 +1,52 @@
+header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+}
+
+.header--content{
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.links{
+  display: flex;
+  gap: 28px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Roboto-bold', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--black-text);
+}
+
+a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--black-text);
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1140px) {
+  .header--content{
+    width: 95%;
+  }
+}

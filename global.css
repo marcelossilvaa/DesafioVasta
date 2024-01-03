@@ -1,0 +1,35 @@
+:root{
+  --white: #ffffff;
+  --black: #303030;
+  --black-title: #3b3b3b;
+  --black-subtitle: #676767;
+  --black-text:#172129; 
+  --blue: #487394;
+  --green: #26b522;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+body{
+  background-color: var(--white);
+  font-family: 'Roboto', sans-serif; 
+} 
+
+ul {
+  list-style: none;
+}
+
+
+
