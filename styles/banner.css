@@ -40,7 +40,7 @@
 }
 
 .banner--button:hover{
-  background-color: #40e13b;
+  background-color: var(--green-button);
 }
 
 

@@ -1,0 +1,58 @@
+.depositions--content{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.depositions--card{
+  width: 318px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.depositions--card--info{
+  display: flex;
+  gap: 12px;
+}
+
+.depositions--title{
+  font-size: 12.35px;
+  margin-bottom: 7px;
+}
+
+.depositions--text{
+  font-size: 9.88px;
+  line-height: 18px;
+}
+
+.depositions--image{
+  width: 74px;
+  height: 74px;
+}
+
+#depositions--arrow{
+  margin-top: 25px;
+  cursor: pointer;
+  height: 21px;
+}
+
+.a-left, .a-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.a-left {
+  left: -25px;
+  height: 21px;
+
+}
+
+.a-right {
+  right: -25px; 
+  height: 21px;
+}

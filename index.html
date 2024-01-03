@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="./styles/depositions.css">
   <link rel="stylesheet" href="./styles/portfolio.css">
   <link rel="stylesheet" href="./styles/footer.css">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 </head>
 <body>
   <!-- Header -->   
@@ -32,45 +34,128 @@
   </header>
 
   <!-- Banner -->
-  <section id="banner">
+  <div id="banner">
     <div class="banner--content">
       <h1 class="banner--title">TÍTULO BANNER</h1>
       <h3 class="banner--subtitle">SUBTÍTULO BANNER</h3>
       <button class="banner--button">BOTÃO DE CLICK</button>
     </div>
-  </section>
+  </div>
 
 
   <!-- Content -->
   <main>
+    
     <!-- About -->
     <section id="about">
-      <h1>SOBRE</h1>
-      <div>
-        <img src="" alt="">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sollicitudin velit, in lacinia dui pulvinar nec. Cras vehicula sed velit id sagittis. Aliquam vitae cursus nunc. Ut et magna pulvinar, varius odio ut, convallis diam. Etiam sapien turpis, rutrum at est at, lacinia fringilla enim. Morbi iaculis quam vel ante posuere, ac interdum leo congue. Donec feugiat augue non lorem feugiat vestibulum. Maecenas condimentum pretium massa. Nunc pharetra arcu lectus, ut volutpat dui tempor eu. In ac faucibus dui, ut suscipit risus. Praesent id hendrerit lacus, sed sagittis sapien. Fusce quis porttitor leo, sit amet dapibus tellus. Nullam fringilla varius ultrices.
-        </p>
-        <button>SAIBA MAIS</button>
+      <h1 class="title">SOBRE</h1>
+      <div class="about--content">
+        <img src="./assets/about-image-1.jpg" alt="">
+        <div class="about--content--container">
+          <p class="about--content--text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sollicitudin velit, in lacinia dui pulvinar nec. Cras vehicula sed velit id sagittis. Aliquam vitae cursus nunc. Ut et magna pulvinar, varius odio ut, convallis diam. Etiam sapien turpis, rutrum at est at, lacinia fringilla enim. Morbi iaculis quam vel ante posuere, ac interdum leo congue. Donec feugiat augue non lorem feugiat vestibulum. Maecenas condimentum pretium massa. Nunc pharetra arcu lectus, ut volutpat dui tempor eu. In ac faucibus dui, ut suscipit risus. Praesent id hendrerit lacus, sed sagittis sapien. Fusce quis porttitor leo, sit amet dapibus tellus. Nullam fringilla varius ultrices.
+          </p>
+          <button class="about--button">SAIBA MAIS</button>
+        </div>
+        
       </div>
-      <div>
-        <p></p>
+
+      <div class="about--content">
+        <p class="about--content--text">
+          Cras nunc magna, facílisis et leo a, tempor iaculis lectus. Nullam eleifend eu metus nec interdum. Fusce at risus lorem vulputate facílisis eget id leo. Suspendisse mollis ante et ultricies ultrices. Interdum et malesuada fames ipsum primis in faucibus. Pellentesque bibendum pellentesque posuere. Cras consequat sed metus at egestas. Vestibulum lacus ante, porta nec erat vitae, tempus consectetur arcu. Curabitur id dui sollicitudin, vestibulum enim eget, venenatis turpis. Curabitur sed mattis felis, sed aliquet ante. Maecenas volutpat sapien quis efficitur sollicitudin. Nulla vehicula sodales ipsum, ut faucibus nibh porttitor et. Phasellus sit amet urna faucibus augue corper scelerisque erat tristique, mollis molestie metus. Scelerisque erat tristique.
+        </p>
+        <img src="./assets/about-image-2.jpg" alt="">
       </div>
     </section>
 
-    <!-- Depositions -->
+    <!-- Portfolio -->
     <section id="portfolio">
-      <h1>PORTFÓLIO</h1>
+      <h1 class="title">PORTFÓLIO</h1>
+      <div class="portfolio--content" id="portfolioContent">
+        <img class="portfolio--image" src="./assets/portfolio-image-1.jpg" alt="">
+        <img class="portfolio--image" src="./assets/portfolio-image-2.jpg" alt="">
+        <img class="portfolio--image" src="./assets/portfolio-image-3.jpg" alt="">
+        <img class="portfolio--image" src="./assets/portfolio-image-4.jpg" alt="">
+        <img class="portfolio--image hidden" src="./assets/portfolio-image-5.jpg" alt="">
+        <img class="portfolio--image hidden" src="./assets/portfolio-image-6.jpg" alt="">
+      </div>
+      <button class="portfolio--button" id="loadMore">CARREGAR MAIS PROJETOS</button>
     </section>
 
     <!-- Depositions -->
     <section id="depositions">
-      <h1>DEPOIMENTOS</h1>
+      <h1 class="title">DEPOIMENTOS</h1>
+
+      <div class="depositions--content">
+        
+
+        <div class="depositions--card">
+          <div>⭐⭐⭐⭐⭐</div>
+          <div class="depositions--card--info">
+            <img class="depositions--image" src="./assets/gray.png" alt="">
+            <div>
+              <h4 class="depositions--title">Lorem Ipsum Dolor.</h4>
+              <p class="depositions--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestiae esse illum, deleniti nobis impedit quis dolor ea optio, odit repudiandae.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="depositions--card">
+          <div>⭐⭐⭐⭐⭐</div>
+          <div class="depositions--card--info">
+            <img class="depositions--image" src="./assets/gray.png" alt="">
+            <div>
+              <h4 class="depositions--title">Lorem Ipsum Dolor.</h4>
+              <p class="depositions--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestiae esse illum, deleniti nobis impedit quis dolor ea optio, odit repudiandae.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="depositions--card">
+          <div>⭐⭐⭐⭐⭐</div>
+          <div class="depositions--card--info">
+            <img class="depositions--image" src="./assets/gray.png" alt="">
+            <div>
+              <h4 class="depositions--title">Lorem Ipsum Dolor.</h4>
+              <p class="depositions--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestiae esse illum, deleniti nobis impedit quis dolor ea optio, odit repudiandae.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="depositions--card">
+          <div>⭐⭐⭐⭐⭐</div>
+          <div class="depositions--card--info">
+            <img class="depositions--image" src="./assets/gray.png" alt="">
+            <div>
+              <h4 class="depositions--title">Lorem Ipsum teste.</h4>
+              <p class="depositions--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestiae esse illum, deleniti nobis impedit quis dolor ea optio, odit repudiandae.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
     </section>
 
-    <!-- Portfolio -->
+    <!-- Contact -->
     <section id="contact">
-      <h1>CONTATO</h1>
+      <h1 class="title">CONTATO</h1>
+      <div>
+        <div>
+          <input type="text">
+          <input type="text">
+          <input type="text">
+        </div>
+        <div>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <div>
+            <input type="text">
+            <div>
+              <p>Todos os dados são guardados de forma segura, saiba mais <a href="">aqui</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -78,5 +163,7 @@
   <footer>
 
   </footer>
+  <script src="./scripts/portfolio.js"></script>
+  <script src="./scripts/depositions.js"></script>
 </body>
 </html>
