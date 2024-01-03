@@ -28,8 +28,23 @@
         <li><a href="#depositions">Depoimentos</a></li>
         <li><a href="#contact">Contato</a></li>
         <li><a href=""></a><img src="./assets/search-icon.png" alt="Botão pesquisar"></li>
+        
       </ul>
+      <div class="menu--hamburguer">
+        <li>
+          <a href=""></a><img src="./assets/search-icon.png" alt="Botão pesquisar">
+        </li>
+        <div class="menu-icon">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </div>
+      </div>
+      
     </div>
+
+
+    
     
   </header>
 
@@ -45,22 +60,36 @@
 
   <!-- Content -->
   <main>
-    
+
+    <!--Menu nav -->
+    <nav class="side-menu">
+      <ul class="menu-links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#depositions">Depoimentos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+
+
     <!-- About -->
     <section id="about">
       <h1 class="title">SOBRE</h1>
-      <div class="about--content">
+      <div class="about--content ">
         <img src="./assets/about-image-1.jpg" alt="">
         <div class="about--content--container">
           <p class="about--content--text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sollicitudin velit, in lacinia dui pulvinar nec. Cras vehicula sed velit id sagittis. Aliquam vitae cursus nunc. Ut et magna pulvinar, varius odio ut, convallis diam. Etiam sapien turpis, rutrum at est at, lacinia fringilla enim. Morbi iaculis quam vel ante posuere, ac interdum leo congue. Donec feugiat augue non lorem feugiat vestibulum. Maecenas condimentum pretium massa. Nunc pharetra arcu lectus, ut volutpat dui tempor eu. In ac faucibus dui, ut suscipit risus. Praesent id hendrerit lacus, sed sagittis sapien. Fusce quis porttitor leo, sit amet dapibus tellus. Nullam fringilla varius ultrices.
           </p>
+          <button class="about--button--readmore"  id="readmore-button">Leia Mais <img src="./assets/arrow-down.png" alt=""></button>
+
           <button class="about--button">SAIBA MAIS</button>
         </div>
         
       </div>
 
-      <div class="about--content">
+      <div class="about--content hide-on-mobile" id="hidden-content">
+        <button class="about--button" id="about--button">SAIBA MAIS</button>
         <p class="about--content--text">
           Cras nunc magna, facílisis et leo a, tempor iaculis lectus. Nullam eleifend eu metus nec interdum. Fusce at risus lorem vulputate facílisis eget id leo. Suspendisse mollis ante et ultricies ultrices. Interdum et malesuada fames ipsum primis in faucibus. Pellentesque bibendum pellentesque posuere. Cras consequat sed metus at egestas. Vestibulum lacus ante, porta nec erat vitae, tempus consectetur arcu. Curabitur id dui sollicitudin, vestibulum enim eget, venenatis turpis. Curabitur sed mattis felis, sed aliquet ante. Maecenas volutpat sapien quis efficitur sollicitudin. Nulla vehicula sodales ipsum, ut faucibus nibh porttitor et. Phasellus sit amet urna faucibus augue corper scelerisque erat tristique, mollis molestie metus. Scelerisque erat tristique.
         </p>
@@ -140,18 +169,24 @@
     <!-- Contact -->
     <section id="contact">
       <h1 class="title">CONTATO</h1>
-      <div>
-        <div>
-          <input type="text">
-          <input type="text">
-          <input type="text">
+      <div class="contact--content">
+        <div class="contact--content--inputs">
+          <input class="contact--input" type="text" placeholder="Nome">
+          <input class="contact--input" type="text" placeholder="Sobrenome">
+          <input class="contact--input" type="email" placeholder="Email">
         </div>
-        <div>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <div>
-            <input type="text">
-            <div>
-              <p>Todos os dados são guardados de forma segura, saiba mais <a href="">aqui</a></p>
+
+        <div class="contact--content--description">
+          <div class="contact--textarea">
+            <textarea name="" id="contact--textarea" placeholder="Mensagem" ></textarea>
+          </div>
+          
+          <div class="contect--content--phone">
+            <input type="tel" class="contact--input--phone" placeholder="Telefone">
+            <div class="contact--content--button">
+              <p class="contact--text">Todos os dados são guardados de forma segura, saiba mais <a id="contact--link"  href="">aqui</a>
+              </p>
+              <button class="contact--button">ENVIAR</button>
             </div>
           </div>
         </div>
@@ -160,10 +195,69 @@
   </main>
 
   <!-- Footer -->
-  <footer>
-
+  <footer class="footer">
+    <div class="footer--container">
+      <div class="footer--newsletter">
+        <div class="footer--newsletter--container">
+          <h3 class="footer--title">SE INSCREVE PARA RECEBER NOSSO NEWSLETTER</h3>
+          <div class="footer--btinput">
+            <input class="footer--input" placeholder="Email" type="email">
+            <button class="footer--button">INSCREVER-SE</button>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer--title">PORTFÓLIO</h3>
+          <div class="footer--content--images">
+            <div>
+              <img class="footer--image" src="./assets/portfolio-image-1.jpg" alt="">
+              <h5 class="footer--link">LINK 1</h5>
+            </div>
+            <div>
+              <img class="footer--image" src="./assets/portfolio-image-2.jpg" alt="">
+              <h5 class="footer--link">LINK 2</h5>
+            </div>
+            <div>
+              <img class="footer--image" src="./assets/portfolio-image-3.jpg" alt="">
+              <h5 class="footer--link">LINK 3</h5>
+            </div>
+            <div>
+              <img class="footer--image" src="./assets/portfolio-image-4.jpg" alt="">
+              <h5 class="footer--link">LINK 4</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer--infos">
+        <div class="footer--infos--content">
+          <div >
+            <h5 class="footer--title">MENU</h5>
+            <ul class="footer--list">
+              <li>Sobre</li>
+              <li>Portfólio</li>
+              <li>Depoimentos</li>
+              <li>Contato</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="footer--title">SOBRE</h5>
+            <ul class="footer--list">
+              <li>Política de Privacidade</li>
+              <li>Termos de uso</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer--cotainer">
+          <img src="./assets/footer_logo_360x.png" class="footer--image--logo" alt="Logo Vasta">
+        </div>
+        
+      </div>
+    </div>
+    
   </footer>
   <script src="./scripts/portfolio.js"></script>
   <script src="./scripts/depositions.js"></script>
+  <script src="./scripts/header.js"></script>
+  <script src="./scripts/about.js"></script>
 </body>
 </html>

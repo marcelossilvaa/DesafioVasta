@@ -50,3 +50,74 @@ a:hover::after {
     width: 95%;
   }
 }
+
+
+/* Menu hamburguer */
+.menu--hamburguer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu--hamburguer{
+    display: none;
+  }
+}
+
+
+.menu-icon {
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.menu-line {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--black-text);
+  margin: 5px 0;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.menu-links {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.active {
+  transform: translateX(0);
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block; 
+  }
+  .menu-icon{
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+}
+
+

@@ -18,9 +18,51 @@
   line-height: 30px;
 }
 
+.about--button--readmore{
+  display: flex;
+  font-size: 14px;
+  gap: 8px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .about--button{
   font-size: 16px;
   padding: 16px 29px;
   background-color: var(--blue);
   color: var(--white);
+  transition: background-color 0.2s;
+}
+
+.about--button:hover{
+  background-color: var(--blue-button);
+}
+
+#about--button{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about--button--readmore{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about--content{
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  #about--button{
+    display: block;
+  }
+  .about--button{
+    display: none;
+  }
 }

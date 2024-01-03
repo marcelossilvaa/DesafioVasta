@@ -3,8 +3,11 @@
   --black: #303030;
   --black-title: #3b3b3b;
   --black-subtitle: #676767;
+  --black-input: #3c3c3c;
+  --black-footer: #333333;
   --black-text:#172129; 
   --blue: #487394;
+  --blue-button: #4f8bb9;
   --green: #26b522;
   --green-button: #40e13b;
 }
@@ -29,7 +32,9 @@ body{
   font-family: 'Roboto', sans-serif; 
 } 
 
-ul {
+ul, ol, li {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -55,6 +60,12 @@ main{
 
 section{
   max-width: 1140px;
+}
+
+textarea {
+  border: none;
+  outline: none; 
+  resize: none; 
 }
 
 
