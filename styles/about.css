@@ -74,11 +74,22 @@
   .about--button{
     display: none;
   }
-
   .about--image{
     width: 100vw;
     height: 190px;
     object-fit: cover;
   }
+}
 
+
+.about--container {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Adicione transições suaves */
+}
+
+/* Quando a classe 'fade-in' for adicionada, a opacidade será 1 e a posição será 0 (normal) */
+.about--container.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
