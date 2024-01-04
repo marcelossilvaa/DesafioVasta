@@ -31,7 +31,7 @@ Por fim, me sinto pronto para desafios nesse sentido.
 git clone https://github.com/seu-usuario/desafio-vasta.git
 ```
 2. Abra o arquivo index.html em seu navegador para visualizar o site.
-Ou pelo link do projeto feito deploy na vercel: https://desafio-vasta.vercel.app/
+- Ou pelo link do projeto feito deploy na vercel: https://desafio-vasta.vercel.app/
 
 # Estrutura do Projeto
 
