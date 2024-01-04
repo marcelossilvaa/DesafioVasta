@@ -18,13 +18,13 @@ Ao longo do projeto, aproveitei meu conhecimento prévio, minimizando a necessid
 
 Em relação as dificuldades, tenho pouca experiência com photoshop para moldar um projeto, talvez possa haver falhas pequenas em relação a tamanhos e espaçamentos. Pela complexidade de aplicar um casousel com html, css e javascript puro, tive preferência de utilizar uma biblioteca de carousel, a Slick, simples mas bem prática, consegui entregar com os padrões do desing proposto.
 
-Por fim, me sinto pronto para desafios nesse sentido.
+Por fim, me sinto pronto para futuros desafios mais complexos.
 
 # Requisitos Técnicos
 
-1. HTML, CSS e JavaScript Puro: O site deve ser construído utilizando apenas HTML, CSS e JavaScript básico, sem a utilização de frameworks.
-2. Responsividade: Certifique-se de que o site seja totalmente responsivo, garantindo uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
-3. Funcionalidades JavaScript: Implementei interações e funcionalidades usando JavaScript puro sempre que necessário, sem depender excessivamente de bibliotecas ou frameworks.
+1. HTML, CSS e JavaScript Puro: O site foi construído utilizando apenas HTML, CSS e JavaScript, com várias animações.
+2. Responsividade: Certificado de que o site esteja totalmente responsivo, garantindo uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
+3. Funcionalidades JavaScript: Foi implementado interações e funcionalidades usando JavaScript puro e css, apenas utilizando uma biblioteca para carousel (Slick).
 4. Integração do Design PSD: Fiz questão de garantir que o layout e design do site correspondessem fielmente ao arquivo PSD fornecido. Prestei atenção aos detalhes, como fontes, cores e espaçamentos.
 
 # Instruções para Execução
@@ -34,7 +34,7 @@ Por fim, me sinto pronto para desafios nesse sentido.
 git clone https://github.com/seu-usuario/desafio-vasta.git
 ```
 2. Abra o arquivo index.html em seu navegador para visualizar o site.
-- Ou pelo link do projeto feito deploy na vercel: https://desafio-vasta.vercel.app/
+- Ou pelo link do projeto, feito deploy na vercel: https://desafio-vasta.vercel.app/
 
 # Estrutura do Projeto
 
