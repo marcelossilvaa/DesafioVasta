@@ -1,14 +1,21 @@
 # Desafio Vasta: Desenvolvimento do Site
 
+  ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 Bem-vindo ao Desafio de Desenvolvimento de Site da Vasta! Este projeto é uma oportunidade para mostrar minhas habilidades em HTML, CSS e JavaScript puro. O objetivo é criar um site com base em um design fornecido em PSD (Adobe Photoshop), utilizando apenas tecnologias básicas da web, sem frameworks, com exceção do jQuery.
 
 # Objetivo do Desafio
 
-Desenvolver um site responsivo e visualmente atraente, seguindo as diretrizes estabelecidas no arquivo PSD fornecido pela equipe de design. Além disso, será necessário incorporar funcionalidades interativas utilizando JavaScript puro, sem depender de bibliotecas externas além do jQuery e Slick.
+Desenvolver um site responsivo e visualmente atraente, seguindo as diretrizes estabelecidas no arquivo PSD, analisando pixel por pixel, fornecido pela equipe de design. Além disso, será necessário incorporar funcionalidades interativas utilizando JavaScript/Jquery.
 
-# Dificuldades
+# FeedBack do Desenvolvimento e Dificuldades
 
-Tenho pouca experiência com photoshop para moldar um projeto, talvez possa ter falhas pequenas em relação a tamalhos e espaçamentos. Pela complexidade de aplicar um casousel com html, css e javascript puro, tive preferência de utilizar uma biblioteca de carousel a Slick, simples mas bem prática, consegui entregar com os padrões do desing proposto.
+O projeto demandou aproximadamente 14 horas de dedicação. No geral, o desenvolvimento ocorreu de forma tranquila, com poucas dificuldades encontradas. Me sentir bem preparado para enfrentar os desafios contribuiu para a confiança durante o processo.
+Ao longo do projeto, aproveitei meu conhecimento prévio, minimizando a necessidade de pesquisas extensas. As poucas consultas realizadas foram pontuais, complementando áreas em que já tinha familiaridade.
+Em relação as dificuldades, tenho pouca experiência com photoshop para moldar um projeto, talvez possa haver falhas pequenas em relação a tamanhos e espaçamentos. Pela complexidade de aplicar um casousel com html, css e javascript puro, tive preferência de utilizar uma biblioteca de carousel, a Slick, simples mas bem prática, consegui entregar com os padrões do desing proposto.
+Por fim, me sinto pronto para desafios nesse sentido.
 
 # Requisitos Técnicos
 
