@@ -95,8 +95,6 @@
   transform: translateY(-12px);
   transition: transform 0.3s ease;
   z-index: 997;
-  
-
 }
 
 .contact--input:not(:focus)::placeholder,
