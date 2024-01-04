@@ -77,6 +77,12 @@
 
 @media (max-width: 767px) {
   .depositions--content{
-    width: 400px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .depositions--content{
+    width: 350px;
   }
 }

@@ -27,7 +27,7 @@
         <li><a href="#portfolio">Portfólio</a></li>
         <li><a href="#depositions">Depoimentos</a></li>
         <li><a href="#contact">Contato</a></li>
-        <li><a href=""></a><img src="./assets/search-icon.png" alt="Botão pesquisar"></li>
+        <li class="header--search"><img src="./assets/search-icon.png" alt="Botão pesquisar"></li>
         
       </ul>
       <div class="menu--hamburguer">
@@ -40,12 +40,7 @@
           <span class="menu-line"></span>
         </div>
       </div>
-      
     </div>
-
-
-    
-    
   </header>
 
   <!-- Banner -->
@@ -75,26 +70,29 @@
     <!-- About -->
     <section id="about">
       <h1 class="title">SOBRE</h1>
-      <div class="about--content ">
-        <img src="./assets/about-image-1.jpg" alt="">
-        <div class="about--content--container">
-          <p class="about--content--text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sollicitudin velit, in lacinia dui pulvinar nec. Cras vehicula sed velit id sagittis. Aliquam vitae cursus nunc. Ut et magna pulvinar, varius odio ut, convallis diam. Etiam sapien turpis, rutrum at est at, lacinia fringilla enim. Morbi iaculis quam vel ante posuere, ac interdum leo congue. Donec feugiat augue non lorem feugiat vestibulum. Maecenas condimentum pretium massa. Nunc pharetra arcu lectus, ut volutpat dui tempor eu. In ac faucibus dui, ut suscipit risus. Praesent id hendrerit lacus, sed sagittis sapien. Fusce quis porttitor leo, sit amet dapibus tellus. Nullam fringilla varius ultrices.
-          </p>
-          <button class="about--button--readmore"  id="readmore-button">Leia Mais <img src="./assets/arrow-down.png" alt=""></button>
-
-          <button class="about--button">SAIBA MAIS</button>
+      <div class="about--container">
+        <div class="about--content ">
+          <img src="./assets/about-image-1.jpg" alt="Desenvolvedor trabalhando" class="about--image">
+          <div class="about--content--container">
+            <p class="about--content--text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sollicitudin velit, in lacinia dui pulvinar nec. Cras vehicula sed velit id sagittis. Aliquam vitae cursus nunc. Ut et magna pulvinar, varius odio ut, convallis diam. Etiam sapien turpis, rutrum at est at, lacinia fringilla enim. Morbi iaculis quam vel ante posuere, ac interdum leo congue. Donec feugiat augue non lorem feugiat vestibulum. Maecenas condimentum pretium massa. Nunc pharetra arcu lectus, ut volutpat dui tempor eu. In ac faucibus dui, ut suscipit risus. Praesent id hendrerit lacus, sed sagittis sapien. Fusce quis porttitor leo, sit amet dapibus tellus. Nullam fringilla varius ultrices.
+            </p>
+            <button class="about--button--readmore" id="readmore-button">Leia Mais <img src="./assets/arrow-down.png" alt=""></button>
+            <button class="about--button">SAIBA MAIS</button>
+          </div>
         </div>
-        
-      </div>
 
-      <div class="about--content hide-on-mobile" id="hidden-content">
-        <button class="about--button" id="about--button">SAIBA MAIS</button>
-        <p class="about--content--text">
-          Cras nunc magna, facílisis et leo a, tempor iaculis lectus. Nullam eleifend eu metus nec interdum. Fusce at risus lorem vulputate facílisis eget id leo. Suspendisse mollis ante et ultricies ultrices. Interdum et malesuada fames ipsum primis in faucibus. Pellentesque bibendum pellentesque posuere. Cras consequat sed metus at egestas. Vestibulum lacus ante, porta nec erat vitae, tempus consectetur arcu. Curabitur id dui sollicitudin, vestibulum enim eget, venenatis turpis. Curabitur sed mattis felis, sed aliquet ante. Maecenas volutpat sapien quis efficitur sollicitudin. Nulla vehicula sodales ipsum, ut faucibus nibh porttitor et. Phasellus sit amet urna faucibus augue corper scelerisque erat tristique, mollis molestie metus. Scelerisque erat tristique.
-        </p>
-        <img src="./assets/about-image-2.jpg" alt="">
+        <div class="about--content hide-on-mobile" id="hidden-content">
+          <button class="about--button" id="about--button">
+            SAIBA MAIS
+          </button>
+          <p class="about--content--text">
+            Cras nunc magna, facílisis et leo a, tempor iaculis lectus. Nullam eleifend eu metus nec interdum. Fusce at risus lorem vulputate facílisis eget id leo. Suspendisse mollis ante et ultricies ultrices. Interdum et malesuada fames ipsum primis in faucibus. Pellentesque bibendum pellentesque posuere. Cras consequat sed metus at egestas. Vestibulum lacus ante, porta nec erat vitae, tempus consectetur arcu. Curabitur id dui sollicitudin, vestibulum enim eget, venenatis turpis. Curabitur sed mattis felis, sed aliquet ante. Maecenas volutpat sapien quis efficitur sollicitudin. Nulla vehicula sodales ipsum, ut faucibus nibh porttitor et. Phasellus sit amet urna faucibus augue corper scelerisque erat tristique, mollis molestie metus. Scelerisque erat tristique.
+          </p>
+          <img src="./assets/about-image-2.jpg" alt="Trabalho em equipe">
+        </div>
       </div>
+      
     </section>
 
     <!-- Portfolio -->
@@ -116,8 +114,6 @@
       <h1 class="title">DEPOIMENTOS</h1>
 
       <div class="depositions--content">
-        
-
         <div class="depositions--card">
           <div>⭐⭐⭐⭐⭐</div>
           <div class="depositions--card--info">
@@ -161,8 +157,6 @@
             </div>
           </div>
         </div>
-
-        
       </div>
     </section>
 
@@ -180,7 +174,6 @@
           <div class="contact--textarea">
             <textarea name="" id="contact--textarea" placeholder="Mensagem" ></textarea>
           </div>
-          
           <div class="contect--content--phone">
             <input type="tel" class="contact--input--phone" placeholder="Telefone">
             <div class="contact--content--button">
@@ -199,13 +192,15 @@
     <div class="footer--container">
       <div class="footer--newsletter">
         <div class="footer--newsletter--container">
-          <h3 class="footer--title">SE INSCREVE PARA RECEBER NOSSO NEWSLETTER</h3>
+          <img src="./assets/footer_logo_360x.png" class="footer--logo--mobile" alt="">
+          <h3 class="footer--title">SE INSCREVA PARA RECEBER NOSSAS NOVIDADES
+          </h3>
           <div class="footer--btinput">
             <input class="footer--input" placeholder="Email" type="email">
             <button class="footer--button">INSCREVER-SE</button>
           </div>
         </div>
-        <div>
+        <div class="footer--container--images">
           <h3 class="footer--title">PORTFÓLIO</h3>
           <div class="footer--content--images">
             <div>
@@ -250,14 +245,32 @@
         <div class="footer--cotainer">
           <img src="./assets/footer_logo_360x.png" class="footer--image--logo" alt="Logo Vasta">
         </div>
-        
+      </div>
+
+      <div class="footer--mobile">
+        <div class="footer--mobile--menu">
+          <h5 class="footer--title " id="menu-title">MENU <img src="./assets/arrow-down-white.png" class="footer--image--mobile" alt=""></h5>
+          <ul class="footer--list" id="menu-list">
+            <li>Sobre</li>
+            <li>Portfólio</li>
+            <li>Depoimentos</li>
+            <li>Contato</li>
+          </ul>
+        </div>
+        <div class="footer--mobile--about">
+          <h5 class="footer--title" id="about-title">SOBRE <img src="./assets/arrow-down-white.png" alt=""></h5>
+          <ul class="footer--list" id="about-list">
+            <li>Política de Privacidade</li>
+            <li>Termos de uso</li>
+          </ul>
+        </div>
       </div>
     </div>
-    
   </footer>
   <script src="./scripts/portfolio.js"></script>
   <script src="./scripts/depositions.js"></script>
   <script src="./scripts/header.js"></script>
   <script src="./scripts/about.js"></script>
+  <script src="./scripts/footer.js"></script>
 </body>
 </html>

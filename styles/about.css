@@ -1,3 +1,9 @@
+.about--container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 
 .about--content{
   display: flex;
@@ -8,22 +14,22 @@
 
 .about--content--container{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
 }
 
 .about--content--text{
-  line-height: 30px;
+  line-height: 35px;
 }
 
 .about--button--readmore{
   display: flex;
-  font-size: 14px;
-  gap: 8px;
   margin: 0 auto;
   padding: 20px;
+  font-size: 14px;
+  gap: 8px;
 }
 
 .about--button{
@@ -42,6 +48,13 @@
   display: none;
 }
 
+@media screen and (max-width: 1136px){
+  .about--content{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about--button--readmore{
     display: none;
@@ -52,10 +65,6 @@
   .about--content{
     flex-direction: column;
   }
-}
-
-
-@media (max-width: 767px) {
   .hide-on-mobile {
     display: none;
   }
@@ -65,4 +74,11 @@
   .about--button{
     display: none;
   }
+
+  .about--image{
+    width: 100vw;
+    height: 190px;
+    object-fit: cover;
+  }
+
 }

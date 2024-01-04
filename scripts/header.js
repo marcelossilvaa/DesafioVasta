@@ -4,3 +4,6 @@ const sideMenu = document.querySelector(".side-menu");
 menuIcon.addEventListener("click", function() {
   sideMenu.classList.toggle("active");
 });
+
+
+

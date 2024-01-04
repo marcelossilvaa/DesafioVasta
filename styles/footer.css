@@ -6,7 +6,8 @@
 }
 
 .footer--container{
-  width: 1136px;
+  max-width: 1136px;
+  width: 100%;
   display: flex;
   padding: 26px 0px;
 }
@@ -45,19 +46,32 @@
   transition: background-color 0.2s;
 }
 
-.footer --button:hover{
+.footer--button:hover{
   background-color: var(--green-button);
+}
+
+.footer--container--images{
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
 }
 
 .footer--content--images{
   display: flex;
   gap: 22px;
+  flex-wrap: wrap;
+  
 }
 
 .footer--image{
   width: 100px;
   height: 83px;
   cursor: pointer;
+  
+}
+
+.footer--logo--mobile{
+    display: none;
 }
 
 .footer--link{
@@ -80,6 +94,7 @@
   padding: 17px 40px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 57px;
 }
 
@@ -103,6 +118,8 @@
 .footer--image--logo{
   width: 150px;
   height: 40px;
+  display: flex;
+  align-items: end;
 }
 
 .footer--cotainer{
@@ -110,3 +127,103 @@
   justify-content: center;
 }
 
+
+@media screen and (max-width: 1136px) {
+  .footer--container{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer--container{
+    flex-wrap: wrap;
+  }
+  .footer--newsletter, .footer--infos {
+    width: 100%;
+  }
+  .footer--infos{
+    display: none;
+  }
+  .footer--newsletter, .footer--content--images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+  }
+  .footer--newsletter--container{
+    gap: 18px;
+    width: 100%;
+  }
+  .footer--logo--mobile{
+    display: block;
+    width: 132px;
+    height: 38px;
+    margin: 0 auto;
+  }
+  .footer--input, .footer--button{
+    padding: 8px;
+  }
+  .footer--input{
+    width: 60%;
+  }
+  .footer--button{
+    width: 40%;
+  }
+}
+
+
+
+
+
+.footer--mobile {
+  border: solid 3px var(--white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 768px){
+  .footer--list {
+  display: none;
+}
+
+.show-list {
+  display: block;
+}
+}
+
+
+
+.footer--mobile--menu{
+  border-bottom: 3px solid var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+
+}
+
+.footer--mobile--about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.footer--image--mobile{
+  color: azure;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .footer--mobile {
+    display: none;
+  }
+}

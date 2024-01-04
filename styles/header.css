@@ -52,7 +52,7 @@ a:hover::after {
 }
 
 
-/* Menu hamburguer */
+/*  Menu hamburguer ----------------------- */
 .menu--hamburguer{
   display: flex;
   justify-content: center;

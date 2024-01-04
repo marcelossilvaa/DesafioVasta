@@ -1,5 +1,9 @@
 #contact{
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact--content{
@@ -7,8 +11,8 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-
-
+  justify-content: center;
+  align-items: center;
 }
 
 .contact--content--inputs{
@@ -16,13 +20,15 @@
   flex-direction: row;
   gap: 41px;
   width: 100%;
+  justify-items: center;
+  align-items: center;
 }
 
 .contact--input{
-  width: 100%;
   font-size: 15px;
   padding: 10px;
   border: 1px solid var(--black-input);
+  width: 33%;
 }
 
 
@@ -36,6 +42,9 @@
 
 .contact--textarea{
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact--textarea{
@@ -63,6 +72,7 @@
   display: flex;
   gap: 30px;
   align-items: center;
+  width: 100%;
 }
 
 .contact--text{
@@ -88,4 +98,35 @@
 
 .contact--button:hover{
   background-color: var(--green-button);
+}
+
+@media screen and (max-width: 768px) {
+
+  .contact--content{
+    margin: 0px;
+    width: 90%;
+    gap: 10px;
+  }
+
+  .contact--content--inputs, .contact--content--button{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact--content--description{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .contact--input{
+    width: 95%;
+  }
+  .contect--content--phone, #contact--textarea, .contact--button, .contact--text{
+    width: 100%;
+    gap: 10px;
+  }
+
+  .contact--button{
+    margin-bottom: 20px;
+  }
 }
