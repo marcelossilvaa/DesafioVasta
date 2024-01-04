@@ -68,6 +68,21 @@
   gap: 30px;
   
 }
+
+.contact--input,
+.contact--input--phone,
+#contact--textarea {
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact--input:focus,
+.contact--input--phone:focus,
+#contact--textarea:focus {
+  border-color: black;
+  transform: scale(1.05);
+  border-radius: 4px;
+}
+
 .contact--content--button{
   display: flex;
   gap: 30px;
@@ -130,3 +145,5 @@
     margin-bottom: 20px;
   }
 }
+
+
