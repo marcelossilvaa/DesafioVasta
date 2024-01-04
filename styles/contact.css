@@ -77,10 +77,33 @@
 
 .contact--input:focus,
 .contact--input--phone:focus,
-#contact--textarea:focus {
+#contact--textarea:focus,
+.contact--input:hover,
+.contact--input--phone:hover,
+#contact--textarea:hover {
   border-color: black;
   transform: scale(1.05);
   border-radius: 4px;
+}
+
+.contact--input:focus::placeholder,
+.contact--input--phone:focus::placeholder,
+.contact--input:hover::placeholder,
+.contact--input--phone:hover::placeholder,
+#contact--textarea:focus::placeholder,
+#contact--textarea:hover::placeholder {
+  transform: translateY(-12px);
+  transition: transform 0.3s ease;
+  z-index: 997;
+  
+
+}
+
+.contact--input:not(:focus)::placeholder,
+.contact--input--phone:not(:focus)::placeholder,
+#contact--textarea:not(:focus)::placeholder {
+  transform: translateY(0);
+  transition: transform 0.3s ease;
 }
 
 .contact--content--button{
