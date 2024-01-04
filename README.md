@@ -12,9 +12,12 @@ Desenvolver um site responsivo e visualmente atraente, seguindo as diretrizes es
 
 # FeedBack do Desenvolvimento e Dificuldades
 
-O projeto demandou aproximadamente 14 horas de dedicação. No geral, o desenvolvimento ocorreu de forma tranquila, com poucas dificuldades encontradas. Me sentir bem preparado para enfrentar os desafios contribuiu para a confiança durante o processo.
+O projeto demandou aproximadamente 14 horas de dedicação, iniciei na tarde de terça-feira 02/01 e finalizei na noite de quarta-feira 03/01. No geral, o desenvolvimento ocorreu de forma tranquila, com poucas dificuldades encontradas. O fato de me sentir bem preparado para enfrentar os desafios contribuiu para a confiança durante o processo.
+
 Ao longo do projeto, aproveitei meu conhecimento prévio, minimizando a necessidade de pesquisas extensas. As poucas consultas realizadas foram pontuais, complementando áreas em que já tinha familiaridade.
+
 Em relação as dificuldades, tenho pouca experiência com photoshop para moldar um projeto, talvez possa haver falhas pequenas em relação a tamanhos e espaçamentos. Pela complexidade de aplicar um casousel com html, css e javascript puro, tive preferência de utilizar uma biblioteca de carousel, a Slick, simples mas bem prática, consegui entregar com os padrões do desing proposto.
+
 Por fim, me sinto pronto para desafios nesse sentido.
 
 # Requisitos Técnicos
