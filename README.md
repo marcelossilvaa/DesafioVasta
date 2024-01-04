@@ -12,7 +12,7 @@ Desenvolver um site responsivo e visualmente atraente, seguindo as diretrizes es
 
 # FeedBack do Desenvolvimento e Dificuldades
 
-O projeto demandou aproximadamente 14 horas de dedicação, iniciei na tarde de terça-feira 02/01 e finalizei na noite de quarta-feira 03/01. No geral, o desenvolvimento ocorreu de forma tranquila, com poucas dificuldades encontradas. O fato de me sentir bem preparado para enfrentar os desafios contribuiu para a confiança durante o processo.
+O projeto demandou aproximadamente 14 horas de dedicação, iniciei na tarde de terça-feira 02/01 e finalizei na noite de quarta-feira 03/01, além de realizar alguns detalhes na manhã do dia 04/01. No geral, o desenvolvimento ocorreu de forma tranquila, com poucas dificuldades encontradas. O fato de me sentir bem preparado para enfrentar os desafios contribuiu para a confiança durante o processo.
 
 Ao longo do projeto, aproveitei meu conhecimento prévio, minimizando a necessidade de pesquisas extensas. As poucas consultas realizadas foram pontuais, complementando áreas em que já tinha familiaridade.
 
